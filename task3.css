@@ -1,0 +1,85 @@
+* {
+    margin:0 auto;
+    padding:0;
+    border: 0;
+}
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 62.5%;
+}
+.wrap {
+    width: 100%;
+    max-width: 640px;
+}
+.header {
+    width: 100%;
+    height: 90px;
+    color: #fff;
+    background-color: #22292c;
+}
+.return {
+    float: left;
+    margin-left: 16px;
+    margin-top: 26px;
+}
+.header span{
+    font-size: 1.4rem;
+    line-height: 105px;
+}
+.header h2 {
+    font-size: 2rem;
+    display: inline-block;
+    padding-left: 30%;
+}
+.more {
+    float: right;
+    margin-right: 16px;
+    margin-top: 35px;
+}
+.content {
+    height: 750px;
+    background-color: #68cdd5;
+}
+.left {
+    float: left;
+    margin-top: 18px;
+    margin-left: 30px
+}
+.right {
+    margin: 100px 20% 0 ;
+}
+.content p {
+    margin: 100px;
+    color: #fff;
+    font-size: 1.7rem
+}
+
+.bottom-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.bottom-left img {
+    width: 25%;
+}
+.bottom-right {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+.bottom-right img {
+    width: 25%;
+}
+@media screen and (max-width: 414px){
+    html{
+        font-size: 60%;
+    }
+}
+.bottom-left p {
+    margin: 10px;
+    font-size: 1rem;
+}
+.bottom-right p {
+    margin: 10px;
+    font-size: 1rem;
+}

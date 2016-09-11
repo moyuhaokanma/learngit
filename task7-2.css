@@ -1,0 +1,88 @@
+#main {
+	width: 100%;
+	background-color: #fafafa;
+	overflow: hidden;
+}
+#main-top img {
+	width: 100%;
+	height: 250px;
+}
+#main-p {
+	width: 1200px;
+	font-size: 1.6rem;
+	margin: 0 auto;
+	font-weight: bold;
+	padding: 30px 4px;
+}
+#main-p p {
+	color: #29b078;
+	display: inline-block;
+}
+#main-zhuti {
+	width: 1200px;
+	margin: 0 auto;
+	height: 1334px;
+	overflow: hidden;
+}
+#main-zhuti-left {
+	width: 303px;
+	height: 706px;
+	float: left;
+}
+#main-zhuti-right {
+	width: 870px;
+	height: 1100px;
+	float: right;
+	font-size: 1rem;
+	color: #a0a0a0;
+}
+#main-zhuti-left-top {
+	height: 60px;
+	width: 303px;
+	font-size: 1.6rem;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 1px solid #29b078;
+}
+#main-zhuti-left-bottom li {
+	height: 53px;
+	line-height: 53px;
+}
+#circle {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #29b078;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 13px;	
+	margin-left: 110px;
+}
+#circle:hover {
+	background-color: #ff650e;
+}
+#main-zhuti-left-bottom ul a:link {color: #29b078;}		/* 未被访问的链接 */
+#main-zhuti-left-bottom ul a:visited {color: #29b078;}	/* 已被访问的链接 */
+#main-zhuti-left-bottom ul a:hover {color: #ff650e;}	/* 鼠标指针移动到链接上 */
+#main-zhuti-left-bottom ul a:active {color: #29b078;}	/* 正在被点击的链接 */
+#main-zhuti-right-top {
+	border-bottom: 1px solid #29b078;
+	height: 160px;
+	overflow: hidden;
+	width: 870px;
+}
+#main-zhuti-right-top img {
+	margin-left: 84px;
+	margin-top: 58px;
+}
+#main-zhuti-right-top span {
+	float: right;
+	height: 94px;
+	width: 564px;
+	margin-top: 34px;
+	margin-right: 80px;
+}
+#main-zhuti-right-bottom p {
+	text-indent: 40px;
+	margin-top: 50px;
+	margin-left: 60px;
+}

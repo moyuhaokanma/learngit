@@ -1,0 +1,133 @@
+* {
+	margin:0 auto;
+	border:0;
+	padding:0;
+
+}
+body {
+	font-family: "Microsoft", sans-serif;
+	font-size: 62.5%;
+	width: 100%;
+	min-width: 320px;
+}
+.header {
+	height: 128px;
+	background-color: #5fc0cd;
+	color: #fff;
+	text-align: center;
+}
+.header img  {
+	float: left;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.header span {
+	font-size: 3rem;
+	line-height: 128px;
+}
+.backgronud {
+    width: 100%;
+    padding: 10% 0;
+    background: url("images/background.png");
+    background-size: ; /*不能简写*/
+    overflow: hidden;
+}
+.backgronud .avatar {
+    float: left;
+    width: 20%;
+    padding: 10% 0;
+    margin: 0 3%;
+    border-radius: 50%;
+    background: white url("images/icon-avatar.png") bottom center /70% no-repeat
+
+}
+.backgronud .introduction {
+    float: left;
+    width: 70%;
+    margin: 3% 0 0;
+    color: white;
+
+}
+.backgronud .introduction p.name span {
+    font-size: 3.6rem; /*名字36像素*/
+}
+.backgronud .introduction p.name {
+    margin-left: 5%;
+    font-size: 2.8rem; /*年龄28像素*/
+}
+.backgronud .introduction p.location {
+    padding-top: 5%;
+    font-size: 2.4rem; /*位置24像素*/
+}
+.main {
+    border-bottom: 1px solid #e1e5e7;
+}
+.main .subnav {
+    padding: 3% 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+.main .subnav .line {
+    margin: 0 25px;
+    padding-left: 5%;
+    border-left: 5px solid #5ac0ce;
+}
+.main .list {
+    margin-left: 5%;
+}
+.main .list li {
+    padding: 5%;
+    border-bottom: 1px solid #e1e5e7;
+}
+.main .list li img {
+    margin-right: 10px;
+}
+.main .list li span.property {
+    margin-right: 5%;
+    padding-right: 5%;
+    border-right: 1px solid #e1e5e7;
+}
+.main .list li span.detail {
+    margin-right: 3%;
+    padding-right: 3%;
+    color: #999;
+    border-right: 1px solid #e1e5e7;
+}
+.main .list li span.red {
+    color: red;
+}
+
+.special{
+    border-style: none;
+}
+.introduction1{
+    display: inline-block;
+    width: 57%;
+    vertical-align: middle;
+    font-size: 2.8rem;
+}
+
+
+
+.footer {
+	height: 228px;
+	font-size: 2rem;
+	background-color: #fff;
+}
+button {
+	float: left;
+	width: 40%;
+	margin: 5% 5%;
+	font-size: 2rem;
+	height: 80px;
+	border-radius: 10px;
+	border: 1px solid #5fc0cd;
+
+}
+.message {
+	color: #5fc0cd;
+	background-color: #fff;
+}
+.contact {
+	color: #fff;
+	background-color: #5fc0cd;
+}

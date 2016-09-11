@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	font-family: "Microsoft", sans-serif;
+	font-size: 62.5%;
+}
+.head {
+	background-color: #29bde0;
+	height: 12.8rem;
+}
+.menu {
+	float: left;
+	margin: 8rem 0 2rem 2.2rem;
+}
+.content {
+	background: #f0f0f0;
+	padding:1.3rem 1.75rem 3rem; 
+}
+.shang {
+	background-color: #fff;
+	height: 11.8rem;
+	color: #9a9a9a;
+	border: 1px solid #c9c9c9;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 11.8rem;
+
+}
+.guo {
+    display: inline;
+}
+.guo img {
+	width: 3rem;
+	height: 3rem;
+	margin:0 0 0 7rem;
+}
+.zhuo {
+	height: 78.2rem;
+	background-color: #fff;
+	margin-top: 3rem;
+}
+.gui {
+	height: 9rem;
+	color: #fbb435;
+	border-bottom: 1px solid #fdd793;
+	font-size: 3rem;
+	text-align: center;
+	line-height: 9rem;
+}
+.wan {
+	padding-left: 5.2rem;
+}
+.your{
+	height: 13.6rem;
+	width: 90%;
+	background-color: #69d1e9;
+	font-size: 2.7rem;
+	color: #fff;
+	text-align: center;
+	line-height: 13.6rem;
+	margin-top: 3.4rem;
+}
+.you{
+	height: 13.6rem;
+	width: 90%;
+	background-color: #69d1e9;
+	font-size: 2.7rem;
+	color: #fff;
+	text-align: center;
+	line-height: 13.6rem;
+}
+.youe{
+	height: 13.6rem;
+	width: 90%;
+	background-color: #69d1e9;
+	font-size: 2.7rem;
+	color: #fff;
+	text-align: center;
+	line-height: 13.6rem;
+	float:left;
+}
+.clear{
+	clear: left;
+}
+p {
+	font-size: 2rem;
+	color: #787878;
+	line-height: 7.6rem;
+	text-align: center;
+}
+.xia {
+	width:0;   
+    height:0;   
+	border-top:1.4rem solid transparent;   
+	border-bottom: 1.4rem solid transparent;   
+	border-left: 1.5rem solid #fbb435;
+	float:left;
+	margin-top:6.3rem;
+    float:left;
+    margin-left: 1rem;
+
+}
+.btn {
+	margin:0 43%;
+}
+.btn-left {
+	width: 1rem;
+    height: 1rem;
+    background: #69d1e9;
+    -moz-border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    float:left;
+}
+.btn-right {
+	width: 1rem;
+    height: 1rem;
+    background: #f0f0f0;
+    -moz-border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    border-radius: .5rem;
+    float:left;
+    margin-left: .5rem;
+
+}

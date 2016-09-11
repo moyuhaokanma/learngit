@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+}
+/*未被访问的链接*/
+a:link {
+	color: #999;
+	text-decoration: none;
+}
+/*已被访问的链接*/
+a:visited {
+	color: #999;
+	text-decoration: none;
+}
+/*鼠标悬停在链接上*/
+a:hover {
+	color: #999;
+	text-decoration: none;
+}
+/*鼠标点中激活链接*/
+a:active {
+	color: #999;
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+#wrap {
+	width: 100%;
+	background-color: #fff;
+}
+.header {
+	width: 100%;
+	background-color: #1d7ad9;
+	color: #fff;
+	height: 40px;
+	font-size: 1.4rem;
+}
+.header ul {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header-pone {
+	float: left;
+	line-height: 40px;
+}
+.header-id {
+	float: right;
+	width: 159px;
+	height: 40px;
+	border-left: 1px solid #fff;
+	line-height: 40px;
+	text-align: center;
+}
+.header-id p {
+	float: right;
+	width: 105px;
+	height: 40px;
+	color: #333;
+	background-color: #fff;
+}
+.main  {
+	width: 1200px;
+	margin: 0 auto;
+}
+.step {
+	overflow: hidden;
+	padding: 40px 0;
+}
+.step ul {
+	float: right;
+}
+.step ul li {
+	display: inline-block;
+	float: left;
+	width: 160px;
+	text-align: center;
+	color: #ccc;
+	border-top: 5px solid #ccc;
+}
+.step ul li span {
+	position: relative;
+	top: -12px;
+	left: 70px;
+	display: block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #fff;
+	background-color: #ccc;
+	border-radius: 12px;
+}
+.step ul li p {
+	font-size: 1.6rem;
+	padding-top: 10px;
+}
+.step ul li.step1 {
+	color: #ff7f00;
+	border-color: #ff7f00;
+}
+.step ul li.step1 span {
+	color: #fff;
+	background-color: #ff7f00;
+}
+.guidance {
+	font-size: 2rem;
+	border-left: 3px solid #1d7ad9;
+}
+.size,
+.texture,
+.type {
+	height: 44px;
+	font-size: 1.8rem;
+	line-height: 44px;
+	background-color: #f4f4f4;
+	color: #1d7ad9;
+	padding-left: 14px;
+}
+.dd {
+	height: 142px;
+}
+.texture1,
+.size1,
+.size2,
+.type1 {
+	overflow: hidden;
+	margin: 20px;
+	font-size: 1.8rem;
+	background-color: #fbfcff;
+	color: #666;
+}
+.select {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 100px;
+	height: 36px;
+	font-size: 1.5rem;
+	color: #666;
+	background-image: url(../task9/xiala.png);
+	background-repeat: no-repeat;
+	background-position: 100%;
+	border: 1px solid #e7e7e7;
+}
+#photo1 {
+	background-image: url(../task9/icot-1.png);
+	width: 20px;
+	height: 19px;
+	display: inline-block;
+}
+#photo2 {
+	background-image: url(../task9/icot-2.png);
+	width: 20px;
+	height: 19px;
+	display: inline-block;
+}
+#photo3 {
+	background-image: url(../task9/icot-3.png);
+	width: 20px;
+	height: 19px;
+	display: inline-block;
+}
+input[type='radio'].radio {opacity:0; display:inline-block; height:20px; }
+label.radio {background:url(../task9/tu.png) no-repeat; height:20px; padding-left:25px;}
+input[type='radio'].radio:checked + .radio {background:url(../task9/ti.png) no-repeat;}
+
+label input.box {
+	width: 70px;
+	height: 26px;
+	border: 1px solid #e8e8e8;
+}
+.size2 label,
+.size1 label {
+	padding-left: 30px;
+}
+.next-page {
+	height: 340px;
+	font-size: 1.8rem;
+}
+.next-page button {
+	width: 100px;
+	height: 46px;
+	margin: 140px 47%;
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	background-color: #e15053;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+	background-color: #f9f9f9;
+}
+.footer-siteinfo  {
+	width: 1200px;
+	color: #999;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+.footer-siteinfo-left {
+	float: left;
+	font-size: 1.8rem;
+}
+.footer-siteinfo-middle {
+	float: left;
+	font-size: 1.4rem;
+	margin-left: 180px;
+}
+.footer-siteinfo-middle ul {
+	margin-bottom: 28px;
+}
+.footer-siteinfo-middle ul li {
+	float: left;
+	padding-right: 40px;
+}
+.footer-siteinfo-middle ul li span {
+	color: #1d7ad9;
+}
+.footer-siteinfo-right {
+	font-size: 1.4rem;
+	float: right;
+	width: 240px;
+}
+.lianxi {
+	float: left;
+	padding-right: 18px;
+}
+.lianxi li {
+	padding-bottom: 16px;
+}
+.footer-siteinfoLegal {
+	width: 100%;
+	height: 33px;
+	text-align: center;
+	line-height: 33px;
+	background-color: #1d7ad9;
+	color: #fff;
+	font-size: 1.2rem;
+}
